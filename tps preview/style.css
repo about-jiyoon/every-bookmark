@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'TossProductSans';
+    src: url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans07Heavy.woff2')
+        format('woff2'),
+      url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans07Heavy.woff') format('woff');
+    font-weight: 900;
+  }
+  @font-face {
+    font-family: 'TossProductSans';
+    src: url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans06ExtraBold.woff2')
+        format('woff2'),
+      url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans06ExtraBold.woff')
+        format('woff');
+    font-weight: 800;
+  }
+  @font-face {
+    font-family: 'TossProductSans';
+    src: url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans05Bold.woff2')
+        format('woff2'),
+      url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans05Bold.woff') format('woff');
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'TossProductSans';
+    src: url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans04SemiBold.woff2')
+        format('woff2'),
+      url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans04SemiBold.woff')
+        format('woff');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'TossProductSans';
+    src: url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans03Medium.woff2')
+        format('woff2'),
+      url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans03Medium.woff')
+        format('woff');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'TossProductSans';
+    src: url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans02Regular.woff2')
+        format('woff2'),
+      url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans02Regular.woff')
+        format('woff');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'TossProductSans';
+    src: url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans01Light.woff2')
+        format('woff2'),
+      url('https://static.toss.im/fonts/toss-product-sans-test/TossProductSans01Light.woff') format('woff');
+    font-weight: 300;
+  }
+
+.tps {
+  font-family: 'TossProductSans', -apple-system, BlinkMacSystemFont,
+  'Basier Square', 'Apple SD Gothic Neo', Roboto, 'Noto Sans KR', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial,
+  sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+.big { 
+  font-weight: 600; 
+  font-size: 72px;    
+  }
+
+.title {
+    font-weight: 700;
+    font-size: 72px;
+    margin-bottom: 50px;
+}
+
+.box {
+border: 1px solid black;
+width: 100px;
+height: 100px;
+vertical-align: middle;
+line-height: 108px;
+text-align: center;
+  }
+
+.desc {
+    text-align: center;
+    font-weight: 600;
+    width: 100px;
+    height: 20px;
+    padding: 5px 0px;
+    border: 1px solid black;
+}
+.masonry {
+    columns: 14;
+    display: inline-block;
+}
+
+@media (max-width: 1200px) {
+    .masonry {
+        columns: 10;
+    }
+}
+
+@media (max-width: 740px) {
+    .masonry {
+        columns: 6;
+    }
+}
+
+@media (max-width: 480px) {
+    .masonry {
+        columns: 4;
+    }
+}
+
+.masonry .masonry-item {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+}
